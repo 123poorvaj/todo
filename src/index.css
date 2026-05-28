@@ -1,0 +1,45 @@
+.todolistcontainer {
+    background-color: rgb(224, 228, 231);
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border: solid;
+    border-left-width: 10px;
+    border-top-width: 0px;
+    border-Right-width: 0px;
+    border-bottom-width: 0px;
+    border-color: rgb(70, 99, 189);
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "robot";
+    text-align: left;
+}
+
+.listcontainer {
+    margin-right: 30px;
+}
+
+.delete-botton:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.checkboxcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkboxx {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #4f46e5;
+    /* checkbox color */
+}
+
+.strike {
+    text-decoration: line-through rgb(87, 216, 61) 2px;
+}
